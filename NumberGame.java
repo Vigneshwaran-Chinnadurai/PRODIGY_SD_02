@@ -24,7 +24,7 @@ public class NumberGame
 			count++;
 			if (count <=3) 
 			{
-				if(clue.equals("yes")) 
+				if(clue.equalsIgnoreCase("yes")) 
 				{
 					if(playerGuess== randomNum) 
 					{
